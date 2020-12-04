@@ -1,25 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to TagLok
 
-You can use the [editor on GitHub](https://github.com/taglok/taglok-site/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Introducing TagLok! A project to make NFC based locking systems cheap and easy!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### How it Works
 
-### Markdown
+TagLok harnesses the power of Arduino and the PN532 NFC chip to provide a proof-of-concept locking system for car doors. It can be made to work in one of five ways
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+1. TagLok can directly power door lock actuators to lock/unlock doors
+2. TagLok can emit an RF code that emulates an existing keyless entry fob to lock/unlock doors
+3. TagLok can power an existing RF keyfob that can already lock/unlock doors
+4. TagLok can be used to start/stop a car without the use of the key
+5. TagLok can be used as a secondary, active anti-theft system by preventing ignition unless the tag is present.
 
 **Bold** and _Italic_ and `Code` text
 
